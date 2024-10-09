@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0056b3;
+    padding: 15px;
+    color: white;
+}
+
+.logo h1 {
+    margin: 0;
+}
+.logo {
+    display: flex;
+    gap: 40px;
+}
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+    background-color: #d9e6f2;
+}
+
+.left-section {
+    max-width: 600px;
+    height: 400px;
+    padding: 20px;
+    background-color: #c2d1e1;
+    border-radius: 5px;
+
+}
+/*  food section */
+.images-container {
+    display: flex;
+    justify-content: space-around;
+}
+.main-content-food {
+    height: 75vh;
+    padding: 50px;
+    background-color: #d9e6f2;
+}
+.title-section {
+    text-align: center;
+}
+
+.title-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.centered-bar {
+    width: 200px;
+    margin: 0 auto;
+    border: 2px solid #0056b3;
+}
+
+.content-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.left-section-food,
+.right-section-food {
+    width: 45%;
+}
+
+.left-section-food p,
+.right-section-food p {
+    margin-bottom: 20px;
+    font-size: larger;
+    text-align: center;
+}
+/*  end of food sesction*/
+
+/* lodging section  */
+.main-content-lodging {
+    padding: 50px;
+    background-color: #d9e6f2;
+}
+.images-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+/*  */
+/* Transportattion */
+
+.images-container-transportation {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15%;
+}
+
+/* FAQ */
+.content-sections-FAQ {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.faq-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 50vw;
+    
+}
+
+.faq-list li {
+    margin-bottom: 10px;
+}
+/*  */
+.left-section h2 {
+    margin-top: 0;
+}
+.right-section {
+   width: 700px;
+   height: 440px;
+overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.right-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.image-container {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.image-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.image-links {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 60px;
+}
+
+.image-links a {
+    margin: 0 10px;
+}
+
+
+.footer {
+    background-color: #87cefa;
+    text-align: center;
+    padding: 15px;
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
